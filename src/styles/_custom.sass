@@ -1,11 +1,29 @@
+.banner-principal__img
+  img
+    animation: float 6s ease-in-out infinite
+
+@keyframes float
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-20px)
+  100%
+    transform: translatey(0px)    
+
 .BGg1
-  background-color: $color-sistema-f
+  background-color: $color-sistema-f !important
   
 .BG02
-  background-color: lighten($color-secundario, 40%)
+  background-color: lighten($color-secundario, 40%) !important
+
+.BG02Full
+  background-color: $color-secundario !important
 
 .BG03
-  background-color: lighten($color-acento-contenido, 24%)
+  background-color: lighten($color-acento-contenido, 24%) !important
+
+.Color3
+  color: $color-acento-contenido !important
 
 .btn-Cacento
   width: 100%
@@ -49,9 +67,35 @@
   background-color: lighten($color-secundario, 45%)
 
 .bordLineTB
-  border-top: 2px solid lighten($color-acento-contenido, 20%)
-  border-bottom: 2px solid lighten($color-acento-contenido, 20%)
+  border-top: 4px solid lighten($color-acento-contenido, 20%)
+  border-bottom: 4px solid lighten($color-acento-contenido, 20%)
 
 .bordLineLR
   border-left: 6px solid $color-acento-contenido
   border-right: 6px solid $color-acento-contenido
+
+.bordLineRr
+  border-right: 4px solid $color-acento-contenido
+  border-bottom: none
+
+@media screen and (max-width: 991px)
+  .bordLineRr
+    border-right: none
+    border-bottom: 4px solid $color-acento-contenido
+
+.bordLineT
+  border-top: 4px solid $color-acento-contenido
+
+.lista-ul--color li > i:first-of-type
+  color: $color-primario !important
+
+.tarjeta-avatar-b > img
+  min-width: 8% !important
+  max-width: 10% !important
+
+.tarjeta-avatar-b > div
+  margin-left: -5% !important
+  padding-left: 6% !important
+
+.elemtOut
+  margin: -80px 0

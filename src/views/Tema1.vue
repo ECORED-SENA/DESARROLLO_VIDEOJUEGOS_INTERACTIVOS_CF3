@@ -256,7 +256,7 @@
     #MapaGroup01
       .row.gx-4.mb-4
         .col-6.col-lg-3.mb-2.mb-lg-0
-          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='multiCollapseExample2') Introducción al skinning parte I
+          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='#MapaCollapse01') Introducción al skinning parte I
         .col-6.col-lg-3.mb-2.mb-lg-0
           button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse02' aria-expanded='false' aria-controls='#MapaCollapse02') Introducción al skinning parte II
         .col-6.col-lg-3.mb-2.mb-lg-0
@@ -354,39 +354,39 @@
         #MapaGroup02
           .row.justify-content-center.gx-4.mb-4
             .col.mb-2.mb-lg-0
-              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='multiCollapseExample2') Mandíbula parte 1
+              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse11' aria-expanded='true' aria-controls='#MapaCollapse11') Mandíbula parte 1
             .col.mb-2.mb-lg-0
-              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse02' aria-expanded='false' aria-controls='#MapaCollapse02') Mandíbula parte 2
+              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse12' aria-expanded='false' aria-controls='#MapaCollapse12') Mandíbula parte 2
             .col.mb-2.mb-lg-0
-              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse03' aria-expanded='false' aria-controls='#MapaCollapse03') Ojos
+              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse13' aria-expanded='false' aria-controls='#MapaCollapse13') Ojos
             .col.mb-2.mb-lg-0
-              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse04' aria-expanded='false' aria-controls='#MapaCollapse04') Blendshapes 1
+              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse14' aria-expanded='false' aria-controls='#MapaCollapse14') Blendshapes 1
             .col.mb-2.mb-lg-0
-              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse05' aria-expanded='false' aria-controls='#MapaCollapse05') Blendshapes 2
+              button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse15' aria-expanded='false' aria-controls='#MapaCollapse15') Blendshapes 2
 
           .row.justify-content-center.mb-4
-            #MapaCollapse01.col-lg-12.collapse.show(data-bs-parent='#MapaGroup02')
+            #MapaCollapse11.col-lg-12.collapse.show(data-bs-parent='#MapaGroup02')
               p video 01
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
-            #MapaCollapse02.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
+            #MapaCollapse12.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
               p video 02
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
-            #MapaCollapse03.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
+            #MapaCollapse13.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
               p video 03
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
-            #MapaCollapse04.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
+            #MapaCollapse14.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
               p video 04
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
-            #MapaCollapse05.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
-              p video 04
+            #MapaCollapse15.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
+              p video 05
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -419,17 +419,17 @@
     #MapaGroup03
       .row.justify-content-center.gx-4.mb-4
         .col-6.col-lg-3.mb-2.mb-lg-0
-          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='multiCollapseExample2') Ajustes finales
+          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse21' aria-expanded='true' aria-controls='#MapaCollapse21') Ajustes finales
         .col-6.col-lg-3.mb-2.mb-lg-0
-          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse02' aria-expanded='false' aria-controls='#MapaCollapse02') Scripting
+          button.btn.btn-Cacento(data-bs-toggle='collapse' data-bs-target='#MapaCollapse22' aria-expanded='false' aria-controls='#MapaCollapse22') Scripting
 
       .row.justify-content-center.mb-4
-        #MapaCollapse01.col-lg-10.collapse.show(data-bs-parent='#MapaGroup03')
+        #MapaCollapse21.col-lg-10.collapse.show(data-bs-parent='#MapaGroup03')
           p video 01
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
-        #MapaCollapse02.col-lg-10.collapse(data-bs-parent='#MapaGroup03')
+        #MapaCollapse22.col-lg-10.collapse(data-bs-parent='#MapaGroup03')
           p video 02
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
