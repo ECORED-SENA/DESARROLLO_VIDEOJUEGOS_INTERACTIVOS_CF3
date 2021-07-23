@@ -1,0 +1,57 @@
+.BGg1
+  background-color: $color-sistema-f
+  
+.BG02
+  background-color: lighten($color-secundario, 40%)
+
+.BG03
+  background-color: lighten($color-acento-contenido, 24%)
+
+.btn-Cacento
+  width: 100%
+  background-color: $color-sistema-f
+  color: black 
+
+  &:hover
+    background-color: lighten($color-acento-contenido, 24%) !important
+    color: black !important
+  
+  &:focus
+    background-color: $color-acento-contenido
+    color: white
+  
+.BGblue
+  position: relative
+  
+  &::before    
+    content: ''
+    z-index: 0
+    display: block
+    position: absolute
+    background-color: lighten($color-secundario, 40%)
+    top: 0
+    bottom: 60%
+    left: 0
+    right: 0
+
+@media screen and (max-width: 991px)
+  .BGblue 
+    &::before 
+      bottom: 32%
+
+.separador
+  opacity: 0.3
+
+.cajon.color-secundario
+  background-color: lighten($color-secundario, 40%)
+
+.bloque-texto-b.color-secundario::before 
+  background-color: lighten($color-secundario, 45%)
+
+.bordLineTB
+  border-top: 2px solid lighten($color-acento-contenido, 20%)
+  border-bottom: 2px solid lighten($color-acento-contenido, 20%)
+
+.bordLineLR
+  border-left: 6px solid $color-acento-contenido
+  border-right: 6px solid $color-acento-contenido
