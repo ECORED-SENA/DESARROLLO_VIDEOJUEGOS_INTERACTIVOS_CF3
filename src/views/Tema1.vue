@@ -50,49 +50,49 @@
             p.mb-4 Cursor 3D y puntos de pivote: el cursor 3D es una herramienta muy útil dentro del software Blender, dado que da un punto de referencia desde el cual transformar los objetos; también sirve para alinear unos objetos con otros. El manejo correcto de este ayudará a establecer de manera adecuada los puntos de pivote de los objetos.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/sKRkKHedHmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         .row.justify-content-center
           .col-md-10
             p.mb-4 Sistema de coordenadas: dentro de cualquier software 3D se disponen diferentes sistemas de coordenadas que ayudarán a transformar los objetos según las necesidades que se tengan. Sistemas de coordenadas como Globales, Locales, Gimbal, entre otros, son los que se explican a continuación:
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/EncUzIuVeOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         .row.justify-content-center
           .col-md-10
             p.mb-4 Aplicar o limpiar transformaciones: al modelar objetos dentro del ambiente de Blender 3D se llega a construir un historial de transformaciones los cuales, al momento de crear un sistema de control para su posterior animación, llega a ser caótico si no se limpia. En el video que se indica a continuación se muestra cómo aplicar las transformaciones y ajustar los puntos de pivote.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/PsUc10fAPRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         .row.justify-content-center
           .col-md-10
             p.mb-4 Outliner y nomenclatura: el proceso de rigging se caracteriza por el correcto orden y designación de cada uno de los elementos dentro de una escena. Esto ayudará a encontrar posibles errores en el proceso de rigging, y facilitará la construcción de la jerarquía.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/c6tTgzTJqgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         .row.justify-content-center
           .col-md-10
             p.mb-4 Construcción de jerarquía: todos los sistemas de esqueletos y de controles están compuestos por un esquema de jerarquías que permiten encadenan los diferentes puntos articulados de un objeto móvil; la forma como están relacionados los objetos dentro de un sistema de rig marcarán su funcionalidad.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/tbpekrm1oIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
         .row.justify-content-center
           .col-md-10
             p.mb-4 Constraints: son la forma de controlar las propiedades de un objeto, se podría decir que es una relación existente entre dos o más objetos, donde uno es el manejador o aquel que fija la restricción, y otro es el manejado.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/W94YAVz7XHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         .row.justify-content-center
           .col-md-10
             p.mb-4 Armature y huesos: son una herramienta que permite mover o deformar una geometría de forma más sencilla. Los bones o huesos, son la base de los amatures o esqueletos.
             
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/Pzpn60JYfc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center
       .col-md-10
@@ -102,7 +102,7 @@
         p.mb-4 Antes de crear el sistema de huesos, es necesario hacer una especie de lista de chequeo para evitar errores futuros. Recomendaciones como que el modelo esté centrado, tenga la correcta dimensión, transformaciones limpias y nomenclatura son algunos de los pasos previos a la creación del esqueleto.
 
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Iu8wOH2uApY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     
@@ -127,13 +127,13 @@
             p.mb-4 Es la primera parte que suele construirse dado que allí se encuentra el centro de gravedad del personaje y la raíz del esqueleto.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/CixyvQt0_0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Orientaciones en los huesos")
             p.mb-4 No es una estructura del rig, pero es fundamental tener esto claro para la construcción de las siguientes partes.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/F2KbWBoZNhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="El brazo y los layers")
             p.mb-4 La construcción de los brazos introduce nuevos conceptos, como el uso de diferentes cadenas de control y el uso de layers o capas para organizar las diferentes familias de huesos.
@@ -146,74 +146,74 @@
             p.mb-4 Se puede ver el video del material complementario para entender mejor los conceptos de FK/IK. 
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/Yc8GKDN5II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Enlace entre cadena FK y DEF")
             p.mb-4 Por medio de constraints se enlazan estas dos cadenas.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/iUoZV3SfUIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Creación de sistema IK")
             p.mb-4 Por medio de un constraint de tipo IK se tendrá la posibilidad de controlar de manera inversa la cadena del brazo.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/rYuHxsySABQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Enlace cadena IK a cadena DEF")
             p.mb-4 Se debe realizar el mismo proceso que se hizo entre la cadena DEF y la cadena FK, pero ahora será la cadena IK la que se enlazará.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/wpm2q_D-18s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Creación de un Switch IK/FK")
             p.mb-4 Dado que la cadena de deformadores está controlada por los sistemas IK y FK, es necesario crear un Switch o interruptor que indique cuándo un sistema está encendido y cuándo el otro está apagado.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/AmwZZVxcUxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Reflejo del sistema de brazos")
             p.mb-4 Por medio de la herramienta Simmetrize se obtendrá un reflejo exacto de todo lo construido hasta ahora. Se hace necesario, entonces, ajustar ciertos detalles a la parte reflejada.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/PxJerjaoSdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Crear los dedos")
             p.mb-4 Al momento de crear los huesos de los dedos se debe prestar especial atención a la posición, las orientaciones y a la nomenclatura.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/AhAZ0uSkz0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Enlace de los dedos con la cadena del brazo")
             p.mb-4 Tras haber creado y ajustado cada una de las articulaciones de los dedos, se procede a conectarlos por medio de constraints a las cadenas DEF y de CONTROL.
 
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/pFWKTRwCdhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Cadena CTRL Espalda y enlace con brazos")
             p.mb-4 Terminando el tren superior del bípedo, se debe construir la cadena de controles y enlazarlos a los sistemas de brazos.
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/VlcYu_05vnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Construcción de pierna DEF y FK")
             p.mb-4 A partir del hueso pelvis se debe crear la extremidad inferior, teniendo en cuenta los loops de la geometría y ajustando las orientaciones de cada hueso. La cadena DEF como la FK son iguales así que se abordan en el siguiente video.
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/yt6qyOIBk68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Creación de pierna IK y Foot Roll")
             p.mb-4 Dentro de la construcción de una pierna IK se debe desarrollar un subsistema conocido como el Reverse foot o Foot Roll, el cual permitirá realizar el conjunto de movimientos especiales con el que cuenta el pie.
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/gEeN-TPRtGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Enlace de cadenas de la pierna y Switch IK/FK")
             p.mb-4 Finalizando la construcción de las piernas, se deben enlazar las diferentes cadenas por medio de constraints y crear el interruptor, al igual que se hizo en los brazos, para poder elegir qué sistema va a manipular la geometría.
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/O9DCc65APFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
           div(titulo="Ajuste del COG")
             p.mb-4 El centro de gravedad o COG (por siglas en inglés) se convierte en el centro de manipulación de todo el esqueleto. Para esto, se debe hacer un pequeño ajuste a las cadenas de Control y Deformadores.
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/i4cJJH1xsQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     
@@ -266,24 +266,20 @@
 
       .row.justify-content-center.mb-4
         #MapaCollapse01.col-lg-10.collapse.show(data-bs-parent='#MapaGroup01')
-          p video 01
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/c3oKyxjKgQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         #MapaCollapse02.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
-          p video 02
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/oQnpOXrPOWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         #MapaCollapse03.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
-          p video 03
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/XX-FMdQoEuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         #MapaCollapse04.col-lg-10.collapse(data-bs-parent='#MapaGroup01')
-          p video 04
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/oQnpOXrPOWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
     
@@ -308,7 +304,7 @@
           p.text-center.mb-0 El siguiente video ilustra el proceso que se debe seguir para la creación de curvas de control:
 
         .video.mb-4
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/NBk5OtTqwcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         p Revisar los siguientes anexos que corresponden al rig del personaje Eleven y el Addon (Orient custom shape.zip) respectivamente, los cuales son usados durante la lección.
     
@@ -366,29 +362,24 @@
 
           .row.justify-content-center.mb-4
             #MapaCollapse11.col-lg-12.collapse.show(data-bs-parent='#MapaGroup02')
-              p video 01
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/S8ETVkQkRKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
             #MapaCollapse12.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
-              p video 02
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/lqiWDiCbzTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
             #MapaCollapse13.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
-              p video 03
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/bDwXAaXz418" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
             #MapaCollapse14.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
-              p video 04
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/qabf9G2PlmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             
             #MapaCollapse15.col-lg-12.collapse(data-bs-parent='#MapaGroup02')
-              p video 05
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/-zHxxIeRuNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     
@@ -425,14 +416,12 @@
 
       .row.justify-content-center.mb-4
         #MapaCollapse21.col-lg-10.collapse.show(data-bs-parent='#MapaGroup03')
-          p video 01
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/V6tbvN4idXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         #MapaCollapse22.col-lg-10.collapse(data-bs-parent='#MapaGroup03')
-          p video 02
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/n8OZ7yRSzKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     

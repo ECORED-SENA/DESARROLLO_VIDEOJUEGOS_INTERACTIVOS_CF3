@@ -181,134 +181,152 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Animacam. (2016). Los inicios de la animación: Émile Reynaud. Animacam',
+      link: 'http://animacam.tv/los-inicios-de-la-animacion-emile-reynaud/',
+    },
+    {
+      referencia: 'Bitable. (2020). What is Motion Graphics? Bitable.',
+      link: 'https://biteable.com/blog/what-is-motion-graphics/',
+    },
+    {
+      referencia:
+        'Bloop Animation Studios LLC. (2020). The 5 Types of Animation. Bloop Animation Studios LLC.',
+      link: 'https://www.bloopanimation.com/types-of-animation/',
+    },
+    {
+      referencia:
+        'Franch, A., T. (2014). Introducción al diseño de los videojuegos. Universitat Oberta de Catalunya (UOC).',
+    },
+    {
+      referencia:
+        'Gutman, D., y Risso, H. (2013). El sonido: conceptos básicos. CePIA. ',
+    },
+    {
+      referencia:
+        'Laybourne. (1998). The Animation Book: a Complete Guide to Animated Filmmaking - From Flip-books to Sound Cartoons to 3-D Animation. Three Rivers Press.',
+    },
+    {
+      referencia:
+        'León, G., D., y Acero, O., H. (2020). Fundamentos de sonido: conociendo el sonido y sus aplicaciones. Poligran.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://journal.poligran.edu.co/index.php/libros/article/view/2270',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Oh my Disney. (2016). The 12 Principles of Animation as Illustrated Through Disney and Disney Pixar Films. Oh my Disney.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Osipa, J. (2010). Stop Staring, Facial Modeling and Animation Done Right. Wiley Publishing, Inc.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Pluralsight. (2014). Understanding Skinning - The Vital Step for Any Rigging Project. Pluralsight.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.pluralsight.com/blog/film-games/understanding-skinning-vital-step-rigging-project ',
+    },
+    {
+      referencia: 'Selby, A. (2013). La animación. Editorial Blume.',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Thomas, F., y Johnston, O. (1981). The Ilussion of Life Disney Animation. Disney Editions.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Williams, R. (2009). The animator’s Surviva Kit. Faber and Faber.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Atmósfera',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'ambiente visual y sonoro creado para un videojuego, de tal manera que el jugador se sienta inmerso en el juego.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Blender',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'programa multiplataforma de software libre (gratis) utilizado para el modelado, texturizado, renderizado, animación, edición y diseño de objetos tridimensionales.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Decibeles',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'unidad física utilizada para medir la intensidad de un sonido, presión y tensión sonora.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Frame',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'secuencia ordenada de imágenes estáticas que logran crear la ilusión de movimiento.',
     },
     {
-      termino: 'Moda',
+      termino: 'Hertzios o Hertz ',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'unidad utilizada para medir la frecuencia de unas ondas y oscilaciones electromagnéticas.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Loops',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'repeticiones que se pueden dar de un mismo elemento animado. Ejemplo, un hámster corriendo en una jaula.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Perceptor',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'mecanismo que poseen los animales o humanos para captar información por medio de sus sentidos ya sea a través de su visión, audición, tacto, gusto u olfato.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Rigging',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'proceso de construir una estructura esquelética y articulada, para que un personaje u objeto se mueva correctamente al animarlo.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Skinning',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'proceso de aplicación de una malla o piel, a la estructura metálica (rigging) del objeto o personaje, de manera que permita una correcta deformación al seguir el movimiento.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Games, T. f. (2017). Skeleton Attack Animations Pack. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/D70hSa5zA78',
+    },
+    {
+      texto: 'Artnatomy. (2019). Home.',
+      tipo: 'Aplicación web',
+      link: 'http://www.artnatomia.net/uk/artnatomya.html',
+    },
+    {
+      texto: 'Freesound. (2021). Freesound. https://freesound.org',
+      tipo: 'Sitio web',
+      link: 'https://freesound.org',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Escardo Club de Animación 3d. (2014). Tutorial de animación 3D: Brazos IK FK en Personajes / Rigs en Maya, Blender, 3DsMax, C4D. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/oEHBqiq97jA',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Osipa, J. (2021). Stop staring: facial modeling and animation done rigth. Serious Skill.',
+      tipo: 'Sitio web',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000062162',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Instituto Cardan. (2016). Cómo funciona Audacity (software gratis). Tutorial español.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=ge6s3ZSO26U',
+    },
+    {
+      texto:
+        'SENA. (2021). Actividades - Práctica con archivos prediseñados. SENA.',
+      tipo: 'Documento',
+      descarga: '/downloads/CF003_Actividad_1.zip',
     },
   ],
   creditos: {
@@ -340,25 +358,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Gabriel Urueta Alvarez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny patricia Ulloa villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

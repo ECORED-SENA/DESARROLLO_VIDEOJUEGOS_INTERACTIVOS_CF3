@@ -872,11 +872,16 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 30
           span Ataque esqueleto
-        figure.mb-5
+        figure.mb-4
           img(src='@/assets/curso/tema2/img31.jpg', alt='Ataque')
         
-        .video.mb-5
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center.mb-5
+          .col-8
+            a.anexo(href="https://youtu.be/D70hSa5zA78" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p Ver el siguiente video de Skeleton Attack Animations Pack para ilustrar mejor el movimiento.
         
         h3.text-center.Color3.bordLineT.pt-5 Down
         .row.justify-content-center
