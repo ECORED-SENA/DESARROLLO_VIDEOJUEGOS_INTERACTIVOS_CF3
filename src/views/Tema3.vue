@@ -128,9 +128,47 @@
         .BG03.p-4
           p.text-center.mb-0 Ahora, se hace un breve análisis de las escenas que presentan a continuación:
     
-    SlyderB.mb-5(:datos="datosSlyder")  
+    SlyderA
+      .row.justify-content-center
+        .col-md-11
+          .row.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p En esta escena, se muestra al personaje caminando hacia su destino bajo un cielo gris, donde lo único que se puede escuchar (de acuerdo con la imagen) es el sonido de sus pisadas en la hierba, la pesadez de su armadura (efectos especiales de audio) y el murmullo del viento (ambientación sonora), dando una inquietante sensación de tranquilidad, que roza con sentimientos de soledad y desolación (que debe ser acorde con la música de fondo), es decir, se hace uso de una paleta de sonidos sencilla pero que logra transmitir emociones específicas que logran el sumergirse en la historia.           
+            .col-md-7
+              .titulo-sexto.color-acento-contenido
+                h5 Fiigura 34
+                span Escena del videojuego “The Shadow of Colossus”
+              figure
+                img(src='@/assets/curso/tema3/img11.jpg', alt='Texto que describa la imagen')
+                figcaption Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99
 
-    .row.justify-content-center.mb-5
+      .row.justify-content-center
+        .col-md-11
+          .row.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p En esta imagen se presenta a un grupo de soldados luchando contra el enemigo en un día soleado. De acuerdo a esto, se podría decir que se puede escuchar el sonido tanto de nuestras balas como las de los enemigos, diferentes voces, gritos y/o diálogos de nuestros compañeros o enemigos, efectos de artillería pesada, explosiones, fuego, sonidos de pisadas, recarga de armas; creando un ambiente conflictivo que logra transmitirnos esa tensión, gracias a una paleta de sonidos más rica y variada que aporta mayor realismo a la escena.          
+            .col-md-7
+              .titulo-sexto.color-acento-contenido
+                h5 Fiigura 35
+                span Escena del videojuego “Medalla de honor”
+              figure
+                img(src='@/assets/curso/tema3/img12.jpg', alt='Texto que describa la imagen')
+                figcaption Nota. Tomada de https://www.vidaextra.com
+      
+      .row.justify-content-center
+        .col-md-11
+          .row.justify-content-center
+            .col-md-5.mb-4.mb-md-0
+              p Por último, en esta imagen se muestra, claramente, la importancia del sonido en los videojuegos, como se puede observar, aunque los gráficos son pobres en comparación con los de ahora, el ambiente de tensión generado gracias a la música de fondo y a los efectos de sonido bien logrados, de los pasos que se arrastran y los gemidos de los zombies acercándose hacia el jugador, de las “criaturas lamedoras” entrando de improviso rompiendo los cristales de la ventana, o de la respiración del mismo Némesis que indica que está cerca aunque no lo veamos en escena; todos estos sonidos logran generar un buen susto, provocando ansiedad.       
+            .col-md-7
+              .titulo-sexto.color-acento-contenido
+                h5 Fiigura 36
+                span Escenas del videojuego Resident Evil
+              figure
+                img(src='@/assets/curso/tema3/img13.jpg', alt='Texto que describa la imagen')
+                figcaption Fuente:https://www.mobygames.com/images/shots/l/177261-resident-evil-2-playstation-screenshot-running-would-be-the.png 
+
+    .row.justify-content-center.my-5
       .col-lg-10
         .BG02.p-4
           .row.justify-content-center.align-items-center
@@ -175,33 +213,7 @@
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    datosSlyder: [
-      {
-        //titulo: 'Never, never assume that what you have achieved is good enough',
-        texto:
-          'En esta escena, se muestra al personaje caminando hacia su destino bajo un cielo gris, donde lo único que se puede escuchar (de acuerdo con la imagen) es el sonido de sus pisadas en la hierba, la pesadez de su armadura (efectos especiales de audio) y el murmullo del viento (ambientación sonora), dando una inquietante sensación de tranquilidad, que roza con sentimientos de soledad y desolación (que debe ser acorde con la música de fondo), es decir, se hace uso de una paleta de sonidos sencilla pero que logra transmitir emociones específicas que logran el sumergirse en la historia. ',
-        imagen: require('@/assets/curso/tema3/img11.jpg'),
-        leyendaImagen:
-          'Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99',
-      },
-      {
-        // titulo: 'Never, never assume that what you have achieved is good enough',
-        texto:
-          'En esta imagen se presenta a un grupo de soldados luchando contra el enemigo en un día soleado. De acuerdo a esto, se podría decir que se puede escuchar el sonido tanto de nuestras balas como las de los enemigos, diferentes voces, gritos y/o diálogos de nuestros compañeros o enemigos, efectos de artillería pesada, explosiones, fuego, sonidos de pisadas, recarga de armas; creando un ambiente conflictivo que logra transmitirnos esa tensión, gracias a una paleta de sonidos más rica y variada que aporta mayor realismo a la escena.',
-        imagen: require('@/assets/curso/tema3/img12.jpg'),
-        leyendaImagen: 'Nota. Tomada de https://www.vidaextra.com',
-      },
-      {
-        //titulo: 'Never, never assume that what you have achieved is good enough',
-        texto:
-          'Por último, en esta imagen se muestra, claramente, la importancia del sonido en los videojuegos, como se puede observar, aunque los gráficos son pobres en comparación con los de ahora, el ambiente de tensión generado gracias a la música de fondo y a los efectos de sonido bien logrados, de los pasos que se arrastran y los gemidos de los zombies acercándose hacia el jugador, de las “criaturas lamedoras” entrando de improviso rompiendo los cristales de la ventana, o de la respiración del mismo Némesis que indica que está cerca aunque no lo veamos en escena; todos estos sonidos logran generar un buen susto, provocando ansiedad.',
-        imagen: require('@/assets/curso/tema3/img13.jpg'),
-        leyendaImagen:
-          'Fuente:https://www.mobygames.com/images/shots/l/177261-resident-evil-2-playstation-screenshot-running-would-be-the.png ',
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

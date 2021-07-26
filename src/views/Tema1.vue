@@ -439,7 +439,7 @@
       
       .col-lg-10.mb-4
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/5DqlxXSJjM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
       .col-lg-8
         a.anexo(href="http://estudiandoblender.blogspot.com/2019/11/rigging-con-rigify.html" target="_blank")
@@ -512,10 +512,10 @@
                 img(src='@/assets/curso/tema1/img22.jpg', alt='Descargar documento')
 
         .BG03.p-4.mb-4
-          p.text-center.mb-0 Ahora se verá cómo se hace el riggify a través del siguiente video tutorial.
+          p.text-center.mb-0 En el siguiente video tutorial se puede ver el Autorigg con Mixamo.
         
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/6xNC2AXB-_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
     
@@ -603,7 +603,7 @@
           p.text-center.mb-0 A través del siguiente video tutorial se verá cómo se modifican los pesos en el skinn del personaje.
         
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/8BGAl7vWAc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
   
 </template>
 

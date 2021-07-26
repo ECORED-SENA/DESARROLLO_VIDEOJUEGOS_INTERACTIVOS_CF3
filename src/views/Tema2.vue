@@ -835,7 +835,7 @@
             p La acción de caminar es una de las más importantes, pues muestra en movimiento constante el personaje, hay un tipo de caminar estándar, pero cada personaje puede tener su personalidad al momento de moverse, una persona obesa puede tambalearse un poco más hacia los lados, una mujer puede caminar con las piernas más juntas y pasos más cortos, todo depende del tipo de personalidad que se le haya definido al personaje. Con las siguientes imágenes se puede crear un caminar, pero se pueden exagerar sus movimientos, para marcar una personalidad.
 
         .video.mb-4
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/KCYEXQlnjVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         p.mb-4 En esta animación se observa en el frame 1 que el pie derecho (rojo) está pisando sobre su talón, y el pie izquierdo (azul) está en punta y los brazos se encuentran en sentido opuesto a su color correspondiente. Es decir, el brazo izquierdo se mueve en sentido contrario de la pierna izquierda. 
 
@@ -862,7 +862,7 @@
           img(src='@/assets/curso/tema2/img30.jpg', alt='Jump')
         
         .video.mb-5
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/xWHfJLrI6GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         h3.text-center.Color3.bordLineT.pt-5 Attack
         .row.justify-content-center
@@ -895,7 +895,7 @@
           img(src='@/assets/curso/tema2/img32.jpg', alt='Agacharse')
         
         .video.mb-5
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/vMvHI9_7pZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
         h3.text-center.Color3.bordLineT.pt-5 Dead
         .row.justify-content-center
@@ -909,7 +909,7 @@
           img(src='@/assets/curso/tema2/img33.jpg', alt='Dead')
         
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/OHYSoettZ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
