@@ -23,13 +23,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Rigging',
+        titulo: '<i>Rigging</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Introducción al rigging',
+            titulo: 'Introducción al <i>rigging</i>',
             hash: 't1_1',
           },
           {
@@ -41,7 +41,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Skinning',
+            titulo: '<i>Skinning</i>',
             hash: 't1_3',
           },
           {
@@ -53,31 +53,31 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Rig facial y blendshapes',
+            titulo: '<i>Rig</i> facial y <i>blendshapes</i>',
             hash: 't1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Ajustes finales y scripting',
+            titulo: 'Ajustes finales y <i>scripting</i>',
             hash: 't1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Addon riggify',
+            titulo: '<i>Addon riggify</i>',
             hash: 't1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: 'Autorigg con Mixamo ',
+            titulo: '<i>Autorigg</i> con Mixamo ',
             hash: 't1_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Skinning y pesos',
+            titulo: '<i>Skinning</i> y pesos',
             hash: 't1_9',
           },
         ],
@@ -342,7 +342,47 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Alexander García Ángel',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Oscar Andrés Martín Moreno',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Fabián Andrés Gómez Pico',
+        cargo: 'Experto temático 3D',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Johnier Felipe Perafán Ledezma',
+        cargo: 'Experto temático 3D',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Luz Aida Quintero Velásquez',
+        cargo: 'Experto temático 3D',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Experto temático 3D',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de las Artes Gráficas - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -364,8 +404,26 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Luis Gabriel Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -376,7 +434,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Yenny patricia Ulloa villamizar',
+        nombre: 'Luis Gabriel Urueta Alvarez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

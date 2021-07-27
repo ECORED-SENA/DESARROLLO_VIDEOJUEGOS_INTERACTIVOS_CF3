@@ -6,8 +6,7 @@
     .titulo-principal
         .titulo-principal__numero
           span 3
-        h1
-          i Fundamentos básicos de sonido
+        h1 Fundamentos básicos de sonido
     
     figure.mb-4
       img(src="@/assets/curso/tema3/img01.jpg", alt="Fundamentos básicos de sonido")
@@ -87,34 +86,40 @@
           ul.lista-ul--color.mb-0
             li 
               i.lista-ul__vineta
-              | La música o banda sonora. Es básicamente la que empodera la historia, le brinda diferentes estados de ánimo dependiendo del contexto de cada nivel, y ayuda a marcar el ritmo del juego.
+              p
+                strong La música o banda sonora. 
+                | Es básicamente la que empodera la historia, le brinda diferentes estados de ánimo dependiendo del contexto de cada nivel, y ayuda a marcar el ritmo del juego.
             li 
               i.lista-ul__vineta
-              | La ambientación sonora. Es la que sugiere el tipo de atmósfera que se debe manejar para cada nivel, por ejemplo, en el escenario del bosque de Gaokere, lo que generalmente se escucharía en dicho ambiente sería el agudo sonido de las cigarras, la brisa soplando en las copas de los árboles, el croar de las ranas, el cantar de los pájaros, etc., transmitiendo un aire de tranquilidad; de cierta manera, se podría decir que son aquellos sonidos que se escuchan en segundo plano a lo largo de todo el nivel. 
+              p
+                strong La ambientación sonora. 
+                | Es la que sugiere el tipo de atmósfera que se debe manejar para cada nivel, por ejemplo, en el escenario del bosque de Gaokere, lo que generalmente se escucharía en dicho ambiente sería el agudo sonido de las cigarras, la brisa soplando en las copas de los árboles, el croar de las ranas, el cantar de los pájaros, etc., transmitiendo un aire de tranquilidad; de cierta manera, se podría decir que son aquellos sonidos que se escuchan en segundo plano a lo largo de todo el nivel. 
             li.mb-0
               i.lista-ul__vineta
-              |  Diálogos y efectos especiales de audio. Brindan información importante al jugador ya sea a través del diálogo con otros personajes, o por la producción de algún sonido específico, por ejemplo, el sonido lejano de alguien pidiendo ayuda, el cual se va incrementando a medida que alguien se acerca facilitando ubicación o de una alarma que se dispara que, generalmente, es indicativo de que algo grave va a pasar; los pesados pasos de un monstruo que se acerca que, aun sin verlo, su sonido sugiere que se trata de algo de gran tamaño generando temor al imaginar con quién se debe enfrentar; es decir, mejoran la inmersión en el videojuego ya que le brindan un mayor realismo.
+              p
+                strong  Diálogos y efectos especiales de audio. 
+                | Brindan información importante al jugador ya sea a través del diálogo con otros personajes, o por la producción de algún sonido específico, por ejemplo, el sonido lejano de alguien pidiendo ayuda, el cual se va incrementando a medida que alguien se acerca facilitando ubicación o de una alarma que se dispara que, generalmente, es indicativo de que algo grave va a pasar; los pesados pasos de un monstruo que se acerca que, aun sin verlo, su sonido sugiere que se trata de algo de gran tamaño generando temor al imaginar con quién se debe enfrentar; es decir, mejoran la inmersión en el videojuego ya que le brindan un mayor realismo.
     
     p.mb-5 Cada uno de estos elementos debe ser acorde con los demás elementos que hacen parte de la atmósfera como:
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta-avatar-b.mb-4
-          img(src='@/assets/curso/tema3/img08.svg', alt='elemento atmósfera 1')
+          img.position-relative(src='@/assets/curso/tema3/img08.svg', alt='elemento atmósfera 1')
           .tarjeta.BG02
             .p-4
               h3 La iluminación y la paleta de colores
               p.mb-0 Influyen en la psique del jugador, por ejemplo, si se usan colores cálidos y una buena iluminación se pueden usar melodías y efectos de sonido más alegres y optimistas; mientras que si se usa una paleta de colores fríos y una iluminación más tenue se pueden usar sonidos y melodías relacionadas con el misticismo, la calma o la tensión, todo depende de lo que se quiera reflejar en escena.
 
         .tarjeta-avatar-b.mb-4
-          img(src='@/assets/curso/tema3/img09.svg', alt='elemento atmósfera 2')
+          img.position-relative(src='@/assets/curso/tema3/img09.svg', alt='elemento atmósfera 2')
           .tarjeta.BG02
             .p-4
               h3 El clima y los efectos atmosféricos
               p.mb-0 Por ejemplo, si hay lluvia se usarán efectos de esta golpeando el suelo y música de calma dependiendo del contexto en que se esté desarrollando la escena; la neblina se asocia con una melodía alusiva al misterio, o si hay rayos se usarán efectos de trueno y una musicalidad en concordancia con el tema del nivel.
         
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/tema3/img09.svg', alt='elemento atmósfera 2')
+          img.position-relative(src='@/assets/curso/tema3/img09.svg', alt='elemento atmósfera 2')
           .tarjeta.BG02
             .p-4
               h3 Efectos de sonido
@@ -137,7 +142,7 @@
             .col-md-7
               .titulo-sexto.color-acento-contenido
                 h5 Fiigura 34
-                span Escena del videojuego “The Shadow of Colossus”
+                span Escena del videojuego “#[em The Shadow of Colossus]”
               figure
                 img(src='@/assets/curso/tema3/img11.jpg', alt='Texto que describa la imagen')
                 figcaption Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99
@@ -163,7 +168,7 @@
             .col-md-7
               .titulo-sexto.color-acento-contenido
                 h5 Fiigura 36
-                span Escenas del videojuego Resident Evil
+                span Escenas del videojuego #[em Resident Evil]
               figure
                 img(src='@/assets/curso/tema3/img13.jpg', alt='Texto que describa la imagen')
                 figcaption Fuente:https://www.mobygames.com/images/shots/l/177261-resident-evil-2-playstation-screenshot-running-would-be-the.png 
@@ -176,7 +181,7 @@
               figure.elemtOut
                 img(src='@/assets/curso/tema3/img14.svg', alt='El sonido en los videojuegos')
             .col-9
-              p.mb-0 Game Audio Awards, son los premios más reconocidos en esta área, donde se premian a los mejores diseñadores de sonido de videojuegos.
+              p.mb-0 #[em Game Audio Awards], son los premios más reconocidos en esta área, donde se premian a los mejores diseñadores de sonido de videojuegos.
     
     separador
       
@@ -189,12 +194,12 @@
       .col-lg-6.bordLineRr.p-4
         figure.mb-4
           img.w-25.mx-auto(src='@/assets/curso/tema3/img15.svg', alt='Dolby Digital')
-        h3.text-center Dolby Digital
+        h3.text-center #[em Dolby Digital]
         p Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque se puede sufrir cierta pérdida en la calidad al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos Dolby Digital Plus, Dolby Digital True HD, y Dolby Atoms, que evitan comprimir el audio, conservando la fidelidad de los sonidos.       
       .col-lg-6.p-4
         figure.mb-4
           img.w-25.mx-auto(src='@/assets/curso/tema3/img16.svg', alt='Digital Sourround (DTS)')
-        h3.text-center Digital Sourround (DTS)
+        h3.text-center #[em Digital Sourround] (DTS)
         p Es la competencia directa de Dolby Digital, se caracteriza por conservar un sonido fuerte y nítido, aunque al comprimirse también se presenta una pérdida en la calidad, pero menor que la presentada por Dolby Digital, y al igual que esta ha venido trabajando en su formato DTS – HD sin compresión con el fin de conservar la alta definición del sonido.
     
     .row.justify-content-center
@@ -206,7 +211,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Enlace web. Aquí se pueden descargar sonidos gratuitos de Freesound.
+            p Enlace web. Aquí se pueden descargar sonidos gratuitos de #[em Freesound].
 
 </template>
 

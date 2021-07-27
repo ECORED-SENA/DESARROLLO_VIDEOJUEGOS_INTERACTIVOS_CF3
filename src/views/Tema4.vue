@@ -6,13 +6,12 @@
     .titulo-principal
         .titulo-principal__numero
           span 4
-        h1
-          i Exportación de objetos
+        h1 Exportación de objetos
  
     .row.justify-content-center
       .col-lg-10.mb-4 
         .cajon.color-acento-contenido.BG03.p-4.mb-4
-          p.mb-0 Cómo llevar un modelo Blender a Unity, y tips para tener en cuenta para llevar todo en orden. Aquí se indican los pasos a seguir: 
+          p.mb-0 Cómo llevar un modelo Blender a Unity, y #[em tips] para tener en cuenta para llevar todo en orden. Aquí se indican los pasos a seguir: 
     
     SlyderA.mb-5
       .row.justify-content-center
@@ -22,52 +21,52 @@
             span Archivo exportar
           figure.mb-4
             img(src='@/assets/curso/tema4/img01.jpg', alt='Texto que describa la imagen')
-          p Seleccionar el objeto a exportar, luego ir a file - export - fbx. Se exporta en la carpeta donde se usará.
+          p Seleccionar el objeto a exportar, luego ir a #[em file - export - fbx]. Se exporta en la carpeta donde se usará.
       
       .row.justify-content-center
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 39
-            span Selected objectsSelected objects
+            span #[em Selected objects]
           figure.mb-4
             img(src='@/assets/curso/tema4/img02.jpg', alt='Texto que describa la imagen')
-          p Se escoge la casilla Selected objects, si la intención es exportar solo lo que se tiene seleccionado en el escenario. Esto se hace muy útil pues en ocasiones hay en el escenario objetos ocultos o luces y planos, que, si no se activa la casilla mencionada, se exportan todos esos elementos que no se necesitan.
+          p Se escoge la casilla #[em Selected objects], si la intención es exportar solo lo que se tiene seleccionado en el escenario. Esto se hace muy útil pues en ocasiones hay en el escenario objetos ocultos o luces y planos, que, si no se activa la casilla mencionada, se exportan todos esos elementos que no se necesitan.
       
       .row.justify-content-center
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 40
-            span Preset
+            span #[em Preset]
           figure.mb-4
             img(src='@/assets/curso/tema4/img03.jpg', alt='Preset')
-          p Para dejar guardada esta configuración para futuros proyectos, se puede crear el Preset en la exportación y asignarle un nombre.
+          p Para dejar guardada esta configuración para futuros proyectos, se puede crear el #[em Preset] en la exportación y asignarle un nombre.
       
       .row.justify-content-center
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 41
-            span Path mode
+            span #[em Path mode]
           figure.mb-4
             img(src='@/assets/curso/tema4/img04.jpg', alt='Path mode')
-          p Si se quieren exportar las texturas junto al modelo, lo que se debe hacer es el Path mode cambiarlo a Copy y activar Embed textures.
+          p Si se quieren exportar las texturas junto al modelo, lo que se debe hacer es el #[em Path mode] cambiarlo a #[em Copy] y activar #[em Embed textures].
       
       .row.justify-content-center
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 42
-            span Inspector Extract
+            span #[em Inspector Extract]
           figure.mb-4
             img(src='@/assets/curso/tema4/img05.jpg', alt='Inspector Extract')
-          p Luego de ello, en Unity, una vez importado el personaje, se le da en Inspector-extract textures extract materiales, que abrirá una ruta donde almacenar los materiales que, una vez guardados, se aplicarán automáticamente al modelo.
+          p Luego de ello, en Unity, una vez importado el personaje, se le da en #[em Inspector-extract textures extract materiales], que abrirá una ruta donde almacenar los materiales que, una vez guardados, se aplicarán automáticamente al modelo.
       
       .row.justify-content-center
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 43
-            span Inmport
+            span #[em Import]
           figure.mb-4
             img(src='@/assets/curso/tema4/img06.jpg', alt='Inmport')
-          p Ahora se puede probar cómo el modelo queda en Unity, de la siguiente manera: se abre la pestaña Assets – import new asset, se clica y busca el archivo en el computador.
+          p Ahora se puede probar cómo el modelo queda en Unity, de la siguiente manera: se abre la pestaña #[em Assets – import new asset], se clica y busca el archivo en el computador.
       
       .row.justify-content-center
         .col-md-11
@@ -82,7 +81,7 @@
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 45
-            span Solidify
+            span #[em Solidify]
           figure.mb-4
             img(src='@/assets/curso/tema4/img08.jpg', alt='Solidify')
           p En el modo de edición, se selecciona la malla y se agrega el modificador solidificar.
@@ -91,7 +90,7 @@
         .col-md-11
           .titulo-sexto.color-acento-contenido
             h5 Figura 46
-            span Import Fbx
+            span #[em Import Fbx]
           figure.mb-4
             img(src='@/assets/curso/tema4/img09.jpg', alt='Import Fbx')
           p Para finalizar, se vuelve a exportar el fbx a Unity y ya se habrá corregido la lectura de la malla.
@@ -105,7 +104,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-zip.svg")
             .anexo__texto
-              p Anexo. Para finalizar, se puede realizar la práctica con archivos prediseñados de animación y movimiento de personajes utilizando los programas Blender y Mixamo.
+              p Anexo. CF003_Actividad_1.zip
 
 </template>
 

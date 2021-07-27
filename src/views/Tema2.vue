@@ -6,8 +6,7 @@
     .titulo-principal
         .titulo-principal__numero
           span 2
-        h1
-          i Animación
+        h1 Animación
     
     figure
       img(src="@/assets/curso/tema2/img01.jpg", alt="Animación")
@@ -15,7 +14,7 @@
     separador
       
     #t2_1.titulo-segundo
-      h2 2.1. Historia de la animación
+      h2 2.1 Historia de la animación
     
     p.mb-4 No es fácil determinar una fecha exacta, sin embargo, desde sus inicios, el ser humano ha tenido la necesidad de plasmar o representar las cosas que ve en el mundo que lo rodea. Ahora, se verá cómo se ha desarrollado la animación a través de la historia.
 
@@ -23,7 +22,7 @@
       //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       LineaTiempoC.color-acento-contenido
-        .row.justify-content-center(titulo="30.000 a. de C.")
+        .row.justify-content-center(titulo="30.000 años atrás")
           .col-8.col-lg-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema2/img02.jpg", alt="historia imagén 1")
@@ -33,7 +32,7 @@
             p.mb-0 No es fácil determinar una fecha exacta, sin embargo, desde sus inicios, el hombre ha tenido la necesidad de plasmar o representar las cosas que ve en el mundo que lo rodea. Se puede ir 30.000 años atrás y dar un vistazo al arte rupestre, donde se encontraban pinturas sobre roca de actividades de cacería, cultivo y rituales que, curiosamente, muestran una sensación de movimiento.
             
         
-        .row(titulo="1600 a. de C.")
+        .row(titulo="1600 a. C.")
           .col-8.col-lg-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema2/img03.jpg", alt="historia imagén 2")
@@ -42,7 +41,7 @@
             h3 Columnas del templo a la diosa Isis
             p.mb-0 El templo a la diosa egipcia Isis muestra, en cada una de sus 110 columnas una figura pintada de la deidad con un progresivo cambio de posición, el cual era percibido como movimiento para los hombres a caballo y conductores de carrozas (Williams, 2009).
         
-        .row(titulo="2000 a. de C.")
+        .row(titulo="2000 a. C.")
           .col-8.col-lg-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema2/img04.jpg", alt="historia imagén 3")
@@ -75,19 +74,16 @@
           .col-8.col-lg-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema2/img07.jpg", alt="historia imagén 6")
-        
-          .col-lg-8
-            h3 Fenaquistoscopio
-            p.mb-0 El fenaquistoscopio inventado por Joseph Plateau y Simon von Stampfer (1832), está compuesto por dos discos conectados por un eje. El disco frontal tiene cortes o rendijas a lo largo del borde y el disco posterior tiene una secuencia de dibujos. Al hacer girar los discos y mirar a través de las rendijas, se tiene ilusión de movimiento.
-        
-        .row(titulo="1832")
-          .col-8.col-lg-4.mb-4.mb-md-0
+            
             figure
               img(src="@/assets/curso/tema2/img08.jpg", alt="historia imagén 7")
         
           .col-lg-8
-            h3 Zootropo
-            p.mb-0 El zootropo: este instrumento victoriano fue vendido como un juguete y consistía en un tambor circular con rendijas. Largas tiras de papel con dibujos en secuencia eran insertadas dentro del tambor. Al rotar el tambor y ver a través de las perforaciones surgía la sensación de movimiento.
+            h3.mb-2 Fenaquistoscopio
+            p.mb-4 El fenaquistoscopio inventado por Joseph Plateau y Simon von Stampfer (1832), está compuesto por dos discos conectados por un eje. El disco frontal tiene cortes o rendijas a lo largo del borde y el disco posterior tiene una secuencia de dibujos. Al hacer girar los discos y mirar a través de las rendijas, se tiene ilusión de movimiento.
+
+            h3.mb-2 Zootropo
+            p.mb-0 El zootropo: este instrumento victoriano fue vendido como un juguete y consistía en un tambor circular con rendijas. Largas tiras de papel con dibujos en secuencia eran insertadas dentro del tambor. Al rotar el tambor y ver a través de las perforaciones surgía la sensación de movimiento.            
         
         .row(titulo="1868")
           .col-8.col-lg-4.mb-4.mb-md-0
@@ -95,7 +91,7 @@
               img(src="@/assets/curso/tema2/img09.jpg", alt="historia imagén 8")
         
           .col-lg-8
-            h3 El flipbook o flipper book.
+            h3 El flipbook o flipper book
             p.mb-0 Apareció el ‘flipbook’ y es recordado como el más simple y popular dispositivo. Es un bloc de dibujos encuadernados en un extremo como un libro. Al sostener el borde encuadernado y dar vuelta o ‘flipar’ el otro extremo del libro, se tiene como resultado animación, la ilusión de una acción continua. Esto es lo que exactamente hacen los niños en las esquinas de sus cuadernos o libros. Incluso, la técnica de ‘flipar’ los dibujos se usa hoy en día por el animador clásico con el fin de probar el movimiento (Williams, 2009).
         
         .row(titulo="1872")
@@ -105,16 +101,20 @@
         
           .col-lg-8
             h3 Estudio de locomoción humana y animal por Muybridge
-            p.mb-0 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿Un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo. Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (stop motion). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (The Atlantic, 2016).
+            p.mb-0 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo?. Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (#[em stop motion]). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (The Atlantic, 2016).
         
         .row(titulo="1879")
           .col-8.col-lg-4.mb-4.mb-md-0
-            figure.mb-4
+            figure
               img(src="@/assets/curso/tema2/img11.jpg", alt="historia imagén 10")
+            
+            figure
+              img(src="@/assets/curso/tema2/img26.jpg", alt="historia imagén 26")
         
           .col-lg-8
             h3 Praxinoscopio 
-            p.mb-0 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “Crystaloid”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “Teatro óptico” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (Animacam, 2017).
+            p.mb-4 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “Crystaloid”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “Teatro óptico” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (Animacam, 2017).
+            h3 Teatro óptico
         
         .row(titulo="1896")
           .col-8.col-lg-4.mb-4.mb-md-0
@@ -130,7 +130,7 @@
               img(src="@/assets/curso/tema2/img13.jpg", alt="historia imagén 12")
         
           .col-lg-8
-            p.mb-4 Blackton y Edison hicieron pública la primera película animada Humorous Phases of Funny Faces, usando la técnica de stop motion para crear movimiento. (Williams, 2009).
+            p.mb-4 Blackton y Edison hicieron pública la primera película animada Humorous Phases of Funny Faces, usando la técnica de #[em stop motion] para crear movimiento. (Williams, 2009).
 
             .row.justify-content-center.mb-4
               .col-10
@@ -147,7 +147,6 @@
         
           .col-lg-8
             p.mb-4 El caricaturista parisino Émile Cohl lanza la que es considerada la primera película totalmente animada que se titula Fantasmagorie.
-            p.mb-4 Puede revisar en la tabla de ejemplos de historia y pipeline el ejemplo 2: 
 
             .row.justify-content-center.mb-4
               .col-10
@@ -163,7 +162,7 @@
               img(src="@/assets/curso/tema2/img15.jpg", alt="historia imagén 14")
         
           .col-lg-8
-            p.mb-0 Ladislaw Starevwicz, animador ruso, crea La bella Lukanida (Piekna Lukanida) la primera animación con marionetas utilizando la técnica de stop motion.
+            p.mb-0 Ladislaw Starevwicz, animador ruso, crea La bella Lukanida (Piekna Lukanida) la primera animación con marionetas utilizando la técnica de #[em stop motion].
         
         .row(titulo="1911")
           .col-8.col-lg-4.mb-4.mb-md-0
@@ -267,7 +266,7 @@
           h3.mb-1 1932
           p.mb-4 Surge el Technicolor en la animación de la mano del cortometraje Flowers and Trees de Disney.
           h3.mb-1 1933
-          p.mb-4 Mediante el uso de stop motion Willis O’Brien crea su gorila para King Kong, también se estrena Los tres cerditos de Disney, la primera película del estudio que sugiere una personalidad animada.
+          p.mb-4 Mediante el uso de #[em stop motion] Willis O’Brien crea su gorila para King Kong, también se estrena Los tres cerditos de Disney, la primera película del estudio que sugiere una personalidad animada.
           h3.mb-1 1934
           p.mb-4 Es presentado al público el Pato Donald en la película The Wise Little Hen.
           h3.mb-1 1935
@@ -361,7 +360,7 @@
         
         .row(titulo="1982 - 1986")
           h3.mb-1 1982
-          p.mb-4 Tim Burton realiza Vincent utilizando animación stop motion en Disney.
+          p.mb-4 Tim Burton realiza Vincent utilizando animación #[em stop motion] en Disney.
           p.mb-4 En Star Treck III: The Wrath of Khan se realiza la primera secuencia digital por parte de ILM.
           h3.mb-1 1986
           p.mb-4 Luxo Jr dirigido por John Lasseter se convierte en una importante referencia para la animación digital.
@@ -380,7 +379,7 @@
         .row(titulo="1993 - 1995")
           h3.mb-1 1993
           p.mb-4 Stiven Spielberg hace uso de la animación digital para la realización de Jurassic Park.
-          p.mb-4 Es estrenada la película de stop motion The Nightmare Before Christmas, producida por Tim Burton y dirigida por Henry Selick.
+          p.mb-4 Es estrenada la película de #[em stop motion] The Nightmare Before Christmas, producida por Tim Burton y dirigida por Henry Selick.
           h3.mb-1 1994
           p.mb-4 Jeffrey Katzenberg cofunda Dreamworks junto a Steven Spielberg y David Geffen.
           h3.mb-1 1995
@@ -410,20 +409,10 @@
           h3.mb-1 2004
           p.mb-4 Es estrenada The Incredibles de Pixar dirigida por Brad Bird.
           h3.mb-1 2005
-          p.mb-4 Se estrena Corpse Bride dirigida por Tim Burton y Wallace y Gromit: The Curse of the Were-Rabbit de Steve Box renovando el interés por la animación en stop motion.
+          p.mb-4 Se estrena Corpse Bride dirigida por Tim Burton y Wallace y Gromit: The Curse of the Were-Rabbit de Steve Box renovando el interés por la animación en #[em stop motion].
           h3.mb-1 2006
           p.mb-0 Disney completa la adquisición de Pixar.
 
-        .row(titulo="2007")
-          .col-8.col-lg-4.mb-4.mb-md-0
-            figure.mb-4
-              img(src="@/assets/curso/tema2/img25.jpg", alt="historia imagén 24")
-        
-          .col-lg-8
-            h3 Pixar
-            p.mb-4 Disney/Pixar estrena Ratatouille dirigida por Brad Bird.
-            p.mb-4 Steve Jobs director de Apple lanza el iPhone revolucionando la telefonía móvil al desarrollar nuevas características para interfaces de usuario dentro las que se encuentra el uso de la animación.
-        
         .row(titulo="2007")
           .col-8.col-lg-4.mb-4.mb-md-0
             figure.mb-4
@@ -449,7 +438,7 @@
     separador
       
     #t2_2.titulo-segundo
-      h2 2.2. Técnicas de animación
+      h2 2.2 Técnicas de animación
     
     p.mb-4 Existen varios estilos o técnicas de animación que van desde el uso de la fotografía y dibujo a mano hasta las imágenes generadas por computadora. En este apartado no se pretende profundizar en cada una de las técnicas, pues la información y proceso de producción de cada una es muy extensa; más bien, se busca caracterizar de forma general cada una de las técnicas y ahondar en aquellas que sean de interés.
 
@@ -471,7 +460,7 @@
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 Esta técnica es también conocida como cel animation, por el proceso que se requería para transferir los dibujos del papel y lápiz a una lámina transparente o acetato (cel) para ser pintada y posteriormente fotografiada con los fondos. 
+            p.mb-4 Esta técnica es también conocida como #[em cel animation], por el proceso que se requería para transferir los dibujos del papel y lápiz a una lámina transparente o acetato (cel) para ser pintada y posteriormente fotografiada con los fondos. 
             
             a.anexo(href="https://www.youtube.com/watch?v=kN-eCBAOw60" target="_blank")
               .anexo__icono
@@ -490,22 +479,22 @@
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 Dentro del estilo clásico de la animación, se encuentra también la Rotoscopia, que es una técnica donde el animador usa como referencia un video real, donde se redibuja o ‘rotoscopea’ el movimiento realista de una persona o animal y se estiliza el dibujo final. El uso de esta técnica brinda mayor realismo y naturalidad a los movimientos de los personajes. 
+            p.mb-4 Dentro del estilo clásico de la animación, se encuentra también la #[em Rotoscopia], que es una técnica donde el animador usa como referencia un video real, donde se redibuja o ‘#[em rotoscopea]’ el movimiento realista de una persona o animal y se estiliza el dibujo final. El uso de esta técnica brinda mayor realismo y naturalidad a los movimientos de los personajes. 
             
             .titulo-sexto.color-acento-contenido
-              span Dispositivos especiales para digitalizar dibujos
+              span Dave Fleischer (1914)
             figure
               img(src="@/assets/curso/tema2/A04.jpg", alt="Técnicas de animación 4")
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 Un ejemplo de esta técnica de Rotoscopia se puede ver el video musical Take on me del artista A-ha.
+            p.mb-4 Un ejemplo de esta técnica de Rotoscopia se puede ver el video musical #[em Take on me] del artista A-ha.
             
             a.anexo(href="https://youtu.be/djV11Xbc914" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Video: A-ha - Take On Me
+                p Video: #[em A-ha - Take On Me]
         
         .row.justify-content-center
           .col-md-10
@@ -517,33 +506,43 @@
             p.mb-4 Esta categoría describe la animación creada a partir de la manipulación de objetos físicos que son movidos ligeramente y fotografiando fotograma a fotograma con el fin de dar la ilusión de estar vivos. Existen varias subcategorías de este estilo, principalmente por el medio o material usado para crear la animación (Laybourne, 1998).
             
             .titulo-sexto.color-acento-contenido
-              span Stop motion
+              span #[em Stop motion]
             figure
               img(src="@/assets/curso/tema2/A06.jpg", alt="Técnicas de animación 6")
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 Hoy en día, uno de los mayores estudios que usa esta técnica para realizar largometrajes es Laika (Coraline, Boxtrolls, Kubo). La subcategoría que predomina en sus películas se conoce como Animación de marionetas o puppet animation. Las marionetas tienen un esqueleto que les permite articularse e interactuar dentro de una escenografía cuidadosamente diseñada para desarrollar la historia.
+            p.mb-4 Hoy en día, uno de los mayores estudios que usa esta técnica para realizar largometrajes es #[em Laika (Coraline, Boxtrolls, Kubo)]. La subcategoría que predomina en sus películas se conoce como Animación de marionetas o #[em puppet animation]. Las marionetas tienen un esqueleto que les permite articularse e interactuar dentro de una escenografía cuidadosamente diseñada para desarrollar la historia.
             
             a.anexo(href="https://www.youtube.com/watch?v=FlUxuAG2Ac8" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Video: ParaNorman Featurette - Making Norman
+                p Video: #[em ParaNorman Featurette - Making Norman]
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 El Claymation se caracteriza por usar figuras en materiales maleables como la arcilla o la plastilina. 
+            p.mb-4 El #[em Claymation] se caracteriza por usar figuras en materiales maleables como la arcilla o la plastilina. 
             
             a.anexo(href="https://www.youtube.com/watch?v=dNJdJIwCF_Y" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Video: Fresh Guacamole by PES - Oscar Nominated Short
+                p Video: #[em Fresh Guacamole by PES - Oscar Nominated Short]
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 El Sand animation y el Oil Paint animation utilizan arena y pinturas u óleos respectivamente, sobre una superficie de vidrio o mesa de luz.
+            p.mb-4 El #[em cut out] es una técnica donde se usan elementos en dos dimensiones (2D), como el papel o una tela. En ocasiones, los personajes pueden ser más complejos y poseen articulaciones. La animación de siluetas o #[em silhoutte animation], es una de las más antiguas técnicas de animación en #[em cut out].
+            
+            a.anexo(href="https://www.youtube.com/watch?v=hqVPYPyTNPs" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[em Stop-Motion Animation Compilation]
+        
+        .row.justify-content-center
+          .col-md-10
+            p.mb-4 El #[em Sand animation] y el #[em Oil Paint animation] utilizan arena y pinturas u óleos respectivamente, sobre una superficie de vidrio o mesa de luz.
             
             .titulo-sexto.color-acento-contenido
               span Mujer dibujando sobre mesa de luz y arena
@@ -552,91 +551,93 @@
         
         .row.justify-content-center
           .col-md-10
-            p.mb-4 Finalmente, la pixilación o pixilation es una forma de stop motion donde se usan personas y ambientes reales con el fin de crear videos irreales.
+            p.mb-4 Finalmente, la pixilación o #[em pixilation] es una forma de #[em stop motion] donde se usan personas y ambientes reales con el fin de crear videos irreales.
             
             a.anexo(href="https://www.youtube.com/watch?v=_5IqwECL6bo&list=PLeb1dw3SJP3L4wJgLZkYQXXPFKUMKGh1S&index=2" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p Video: Human Skateboard by PES
+                p Video: #[em Human Skateboard by PES]
     
     separador
       
     #t2_3.titulo-segundo
-      h2 2.3. Principios de animación
+      h2 2.3 Principios de animación
     
-    p.mb-5 Estos son fundamentales durante el proceso de animación, pero también para el desarrollo de las emociones que transmiten al público, por ello es indispensable hacer uso de algunos de estos principios para darle fuerza y características a los personajes, estos son 12, pero claramente multiplica el abanico de posibilidades durante el desarrollo, además de que facilita y da herramientas indispensables para acentuar de una forma correcta lo que se quiere comunicar.
+    p.mb-4 Estos son fundamentales durante el proceso de animación, pero también para el desarrollo de las emociones que transmiten al público, por ello es indispensable hacer uso de algunos de estos principios para darle fuerza y características a los personajes, estos son 12, pero claramente multiplica el abanico de posibilidades durante el desarrollo, además de que facilita y da herramientas indispensables para acentuar de una forma correcta lo que se quiere comunicar.
+
+    p.mb-5 A continuación se verán los 12 principios de la animación. 
 
     #MapaGroup01
       .row.mb-5
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='#MapaCollapse01')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse01' aria-expanded='true' aria-controls='#MapaCollapse01')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn01.svg", alt="btn01")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse02' aria-expanded='true' aria-controls='#MapaCollapse02')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse02' aria-expanded='true' aria-controls='#MapaCollapse02')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn02.svg", alt="btn02")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse03' aria-expanded='true' aria-controls='#MapaCollapse03')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse03' aria-expanded='true' aria-controls='#MapaCollapse03')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn03.svg", alt="btn03")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse04' aria-expanded='true' aria-controls='#MapaCollapse04')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse04' aria-expanded='true' aria-controls='#MapaCollapse04')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn04.svg", alt="btn04")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse05' aria-expanded='true' aria-controls='#MapaCollapse05')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse05' aria-expanded='true' aria-controls='#MapaCollapse05')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn05.svg", alt="btn05")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse06' aria-expanded='true' aria-controls='#MapaCollapse06')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse06' aria-expanded='true' aria-controls='#MapaCollapse06')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn06.svg", alt="btn06")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse07' aria-expanded='true' aria-controls='#MapaCollapse07')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse07' aria-expanded='true' aria-controls='#MapaCollapse07')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn07.svg", alt="btn07")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse08' aria-expanded='true' aria-controls='#MapaCollapse08')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse08' aria-expanded='true' aria-controls='#MapaCollapse08')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn08.svg", alt="btn08")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse09' aria-expanded='true' aria-controls='#MapaCollapse09')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse09' aria-expanded='true' aria-controls='#MapaCollapse09')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn09.svg", alt="btn09")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse10' aria-expanded='true' aria-controls='#MapaCollapse10')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse10' aria-expanded='true' aria-controls='#MapaCollapse10')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn10.svg", alt="btn10")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse11' aria-expanded='true' aria-controls='#MapaCollapse11')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse11' aria-expanded='true' aria-controls='#MapaCollapse11')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn11.svg", alt="btn11")
             figure
               img(src="@/assets/curso/tema2/sdw.svg", alt="sombra")
         .col-2.col-lg-1
-          button.btn(data-bs-toggle='collapse' data-bs-target='#MapaCollapse12' aria-expanded='true' aria-controls='#MapaCollapse12')
+          button.btn.p-0(data-bs-toggle='collapse' data-bs-target='#MapaCollapse12' aria-expanded='true' aria-controls='#MapaCollapse12')
             figure.mb-2
               img(src="@/assets/curso/tema2/btn12.svg", alt="btn12")
             figure
@@ -644,7 +645,7 @@
     
       #MapaCollapse01.collapse.show(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Squash y stretch
+          h3.text-center.text-light.mb-0 #[em Squash y stretch]
         .BG03.p-5
           .row
             .col-7
@@ -652,7 +653,7 @@
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 15
-                span Squash and stretch gif
+                span #[em Squash and stretch]
               figure
                 img(src='@/assets/curso/tema2/1.gif', alt='Squash y stretch')
       
@@ -662,7 +663,7 @@
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Antes de una acción, se puede anticipar a la realización de aquella, por ejemplo si va a dar un golpe, primero gira el cuerpo y lleva el brazo hacia atrás y luego da el golpe. Si va a dar un salto, primero se puede agachar, para tomar impulso y luego saltar. En cambio, si se realiza el salto sin tomar el impulso inicial, el salto final evidenciará la falta de fuerza y dinamismo en el movimiento. Además, la anticipación prepara a la audiencia ante una nueva acción a realizarse.
+              p.mt-5 Antes de una acción, se puede anticipar a la realización de aquella, por ejemplo, si va a dar un golpe, primero gira el cuerpo y lleva el brazo hacia atrás y luego da el golpe. Si va a dar un salto, primero se puede agachar, para tomar impulso y luego saltar. En cambio, si se realiza el salto sin tomar el impulso inicial, el salto final evidenciará la falta de fuerza y dinamismo en el movimiento. Además, la anticipación prepara a la audiencia ante una nueva acción a realizarse.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 16
@@ -676,7 +677,7 @@
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Cada fotograma que contiene cada escena debe contar algo, es importante no perder detalles en la composición de las escenas, el personaje debe transmitir emociones, evidenciado a partir de su gestualidad. Esta debe estar conectada a la continuidad de la historia, por ende nos indica por ejemplo en un videojuego, que el personaje se encuentra herido y tiene opciones como curarse, si tiene con que, o debe seguir adelante y enfrentar la batalla y arriesgarse, o regresar y buscar una cura. Pero la puesta en escena también debe contener complementos en la ambientación, que refuercen la idea de lo que está pasando o va a pasar durante esa acción. Demasiados elementos en la escena, se vuelven distractores.
+              p.mt-5 Cada fotograma que contiene cada escena debe contar algo, es importante no perder detalles en la composición de las escenas, el personaje debe transmitir emociones, evidenciado a partir de su gestualidad. Esta debe estar conectada a la continuidad de la historia, por ende, nos indica por ejemplo en un videojuego, que el personaje se encuentra herido y tiene opciones como curarse, si tiene con que, o debe seguir adelante y enfrentar la batalla y arriesgarse, o regresar y buscar una cura. Pero la puesta en escena también debe contener complementos en la ambientación, que refuercen la idea de lo que está pasando o va a pasar durante esa acción. Demasiados elementos en la escena se vuelven distractores.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 17
@@ -686,52 +687,52 @@
       
       #MapaCollapse04.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Animación pose to pose y straight ahead
+          h3.text-center.text-light.mb-0 Animación pose to pose y #[em straight ahead]
         .BG03.p-5
           .row
             .col-7
-              p.mt-5.mb-4 Técnica de animación en el que se despliegan una serie de posiciones corporales clave y se rellenan los espacios entre estas con posiciones secundarias para ir de una pose inicial a una pose final. Aquí se crean las poses principales, en las escenas pose to pose se marcan principalmente los fotogramas más importantes de la acción que se va a realizar, ya posteriormente se pueden rellenar los frames intermedios.
-              p La otra forma de animar, es el straight ahead, en la que se va ilustrando, a medida que se va avanzando, sin tener un clave final, sino que la animación va fluyendo, como ejemplo se puede animar fuego o humo.
+              p.mt-5.mb-4 Técnica de animación en el que se despliegan una serie de posiciones corporales clave y se rellenan los espacios entre estas con posiciones secundarias para ir de una pose inicial a una pose final. Aquí se crean las poses principales, en las escenas #[em pose to pose] se marcan principalmente los fotogramas más importantes de la acción que se va a realizar, ya posteriormente se pueden rellenar los #[em frames] intermedios.
+              p La otra forma de animar es el #[em straight ahead], en la que se va ilustrando, a medida que se va avanzando, sin tener un clave final, sino que la animación va fluyendo, como ejemplo se puede animar fuego o humo.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 18
-                span Pose to pose
+                span #[em Pose to pose]
               figure
                 img(src='@/assets/curso/tema2/4.gif', alt='Pose to pose.')
       
       #MapaCollapse05.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Overlapping action
+          h3.text-center.text-light.mb-0 #[em Overlapping action]
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Esta acción permite que los objetos que se encuentren anexos al personaje, como por ejemplo una bufanda o una capa, esta siga el movimiento del personaje animado. Si es un toon que está corriendo y de repente frena en seco, su cabello se mueve hacia delante después de haberse detenido. Si utilizamos una cuerda de guitarra, está en un principio se estira, pero cuando su movimiento principal termina, quedan ondas de la cuerda en movimiento que continúan hasta detenerse.
+              p.mt-5 Esta acción permite que los objetos que se encuentren anexos al personaje, como por ejemplo una bufanda o una capa, esta siga el movimiento del personaje animado. Si es un #[em toon] que está corriendo y de repente frena en seco, su cabello se mueve hacia delante después de haberse detenido. Si utilizamos una cuerda de guitarra, está en un principio se estira, pero cuando su movimiento principal termina, quedan ondas de la cuerda en movimiento que continúan hasta detenerse.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 19
-                span Overlapping action
+                span #[em Overlapping action]
               figure
                 img(src='@/assets/curso/tema2/5.gif', alt='Overlapping action')
       
       #MapaCollapse06.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Slow in and slow out
+          h3.text-center.text-light.mb-0 #[em Slow in and slow out]
         .BG03.p-5
           .row
             .col-7
-              p.mt-5.mb-4 Permite darle una gestualidad al movimiento de la animación con fluidez. Esto permite que un objeto que se va animar, adquiera carácter. Logrando darle al objeto un tono de velocidad, por ejemplo, puede arrancar lento y a medida que avanza aumenta su velocidad, o al contrario, puede ir corriendo e ir frenando.
-              p.mb-4 Slow in. Si observamos un auto cuando arranca empieza en 0, pero este va aumentando su velocidad, a esto le llamaríamos Slow in, en el que se encuentra acelerando.
-              p Slow out. Este mismo carro ya viene a alta velocidad y empieza a frenar, lo definimos como slow out. Se puede determinar el tipo de velocidad con el que puede avanzar el personaje. Un timing igual se vuelve aburrido, monótono; en cambio, si este tiene aceleración o desaceleración, mostrará dinamismo, a pesar de que el tiempo de carrera sea el mismo. Esto influye en generar emociones con las acciones.
+              p.mt-5.mb-4 Permite darle una gestualidad al movimiento de la animación con fluidez. Esto permite que un objeto que se va a animar, adquiera carácter. Logrando darle al objeto un tono de velocidad, por ejemplo, puede arrancar lento y a medida que avanza aumenta su velocidad, o al contrario, puede ir corriendo e ir frenando.
+              p.mb-4 #[strong Slow in.] Si observamos un auto cuando arranca empieza en 0, pero este va aumentando su velocidad, a esto le llamaríamos #[em Slow in], en el que se encuentra acelerando.
+              p #[strong Slow out.] Este mismo carro ya viene a alta velocidad y empieza a frenar, lo definimos como #[em slow out]. Se puede determinar el tipo de velocidad con el que puede avanzar el personaje. Un timing igual se vuelve aburrido, monótono; en cambio, si este tiene aceleración o desaceleración, mostrará dinamismo, a pesar de que el tiempo de carrera sea el mismo. Esto influye en generar emociones con las acciones.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 20
-                span Slow in and slow out
+                span #[em Slow in and slow out]
               figure
                 img(src='@/assets/curso/tema2/6.gif', alt='Slow in and slow out')
       
       #MapaCollapse07.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Arcs
+          h3.text-center.text-light.mb-0 #[em Arcs]
         .BG03.p-5
           .row
             .col-7
@@ -739,21 +740,21 @@
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 19
-                span Arcs
+                span #[em Arcs]
               figure
                 img(src='@/assets/curso/tema2/7.gif', alt='Arcs')
       
       #MapaCollapse08.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Timing
+          h3.text-center.text-light.mb-0 #[em Timing]
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Hace referencia al tiempo que tarda un objeto en desplazarse de un lugar a otro. Es el uso del espacio y el tiempo, lo cual se puede medir a partir de frames, generalmente para un segundo de animación se usan 24, que en sí serían 24 imágenes, estas pueden repetirse, para no tener que realizar tantas ilustraciones. Estilos muy avanzados en animación realizan una por frame. Si se observan los círculos en la siguiente figura, se aprecia que el tiempo es el mismo, pero los intervalos son diferentes. En la primera se ven al inicio, más cercanos los frames, pero a medida que avanza estos se van separando. Al estar más cercanos indica que está andando más lento y al alejarse acelera. Si miramos la misma imagen de derecha a izquierda, va en carrera y empieza a mermar su velocidad.
+              p.mt-5 Hace referencia al tiempo que tarda un objeto en desplazarse de un lugar a otro. Es el uso del espacio y el tiempo, lo cual se puede medir a partir de #[em frames], generalmente para un segundo de animación se usan 24, que en sí serían 24 imágenes, estas pueden repetirse, para no tener que realizar tantas ilustraciones. Estilos muy avanzados en animación realizan una por #[em frame]. Si se observan los círculos en la siguiente figura, se aprecia que el tiempo es el mismo, pero los intervalos son diferentes. En la primera se ven al inicio, más cercanos los #[em frames], pero a medida que avanza estos se van separando. Al estar más cercanos indica que está andando más lento y al alejarse acelera. Si miramos la misma imagen de derecha a izquierda, va en carrera y empieza a mermar su velocidad.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 22
-                span Timing
+                span #[em Timing]
               figure
                 img(src='@/assets/curso/tema2/8.gif', alt='Timing')
     
@@ -763,7 +764,7 @@
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Relacionado con el squash and stretch, pero exagerando mucho más los estiramientos, puede marcar una acción de forma más precisa, dándole fuera a las gestualidades, por ejemplo, si está gritando, se puede estirar la mandíbula lo que más se pueda.
+              p.mt-5 Relacionado con el #[em squash and stretch], pero exagerando mucho más los estiramientos, puede marcar una acción de forma más precisa, dándole fuera a las gestualidades, por ejemplo, si está gritando, se puede estirar la mandíbula lo que más se pueda.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 23
@@ -777,7 +778,7 @@
         .BG03.p-5
           .row
             .col-7
-              p.mt-5 Son pequeños movimientos o gestos que refuerzan el movimiento principal, lo que permite que si una acción está mostrando una idea, con la acción secundaria esta se puede reforzar, como ejemplo una persona se encuentra esperando en el hospital, está enojado, manotea con su mano, y luego en una acción secundaria, empieza a mover su pie rápidamente, demostrando estrés y acentuando más su disgusto.
+              p.mt-5 Son pequeños movimientos o gestos que refuerzan el movimiento principal, lo que permite que, si una acción está mostrando una idea, con la acción secundaria esta se puede reforzar, como ejemplo una persona se encuentra esperando en el hospital, está enojado, manotea con su mano, y luego en una acción secundaria, empieza a mover su pie rápidamente, demostrando estrés y acentuando más su disgusto.
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 24
@@ -801,7 +802,7 @@
       
       #MapaCollapse12.collapse(data-bs-parent='#MapaGroup01')
         .BG02Full.p-4
-          h3.text-center.text-light.mb-0 Appeal (atractivo)
+          h3.text-center.text-light.mb-0 #[em Appeal] (atractivo)
         .BG03.p-5
           .row
             .col-7
@@ -809,14 +810,14 @@
             .col-5
               .titulo-sexto.color-acento-contenido
                 h5 Figura 25
-                span Appeal
+                span #[em Appeal]
               figure
                 img(src='@/assets/curso/tema2/12.gif', alt='Appeal')
     
     separador
       
     #t2_4.titulo-segundo
-      h2 2.4. Animaciones básicas
+      h2 2.4 Animaciones básicas
     
     .row.justify-content-center
       .col-lg-10
@@ -828,43 +829,43 @@
         
         .row.justify-content-center.mb-5
           .col-lg-6.bordLineRr.p-4
-            h3.text-center.Color3 Idle
+            h3.text-center.Color3 #[em Idle]
             p El personaje está en su estado de descanso, es decir se encuentra de pie, pero nunca está 100 por ciento quieto, tiene un movimiento mínimo, sus brazos pueden estar moviéndose lentamente, o su cabeza puede oscilar lentamente o mirar hacia un lado, siempre está expectante para iniciar su movimiento.          
           .col-lg-6.p-4
-            h3.text-center.Color3 Walk
+            h3.text-center.Color3 #[em Walk]
             p La acción de caminar es una de las más importantes, pues muestra en movimiento constante el personaje, hay un tipo de caminar estándar, pero cada personaje puede tener su personalidad al momento de moverse, una persona obesa puede tambalearse un poco más hacia los lados, una mujer puede caminar con las piernas más juntas y pasos más cortos, todo depende del tipo de personalidad que se le haya definido al personaje. Con las siguientes imágenes se puede crear un caminar, pero se pueden exagerar sus movimientos, para marcar una personalidad.
 
         .video.mb-4
           iframe(width="560" height="315" src="https://www.youtube.com/embed/KCYEXQlnjVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
-        p.mb-4 En esta animación se observa en el frame 1 que el pie derecho (rojo) está pisando sobre su talón, y el pie izquierdo (azul) está en punta y los brazos se encuentran en sentido opuesto a su color correspondiente. Es decir, el brazo izquierdo se mueve en sentido contrario de la pierna izquierda. 
+        p.mb-4 En esta animación se observa en el #[em frame] 1 que el pie derecho (rojo) está pisando sobre su talón, y el pie izquierdo (azul) está en punta y los brazos se encuentran en sentido opuesto a su color correspondiente. Es decir, el brazo izquierdo se mueve en sentido contrario de la pierna izquierda. 
 
         .BG02.p-4.mb-4
-          p.mb-0 En la segunda pose, en el frame 7, el pie derecho está plantado totalmente, la pierna izquierda está pasando en frente de la derecha. Los brazos se equilibran y la cabeza está más alta que el frame 1.
+          p.mb-0 En la segunda pose, en el #[em frame] 7, el pie derecho está plantado totalmente, la pierna izquierda está pasando en frente de la derecha. Los brazos se equilibran y la cabeza está más alta que el #[em frame] 1.
         
-        p.mb-4 En la tercera figura el frame 13 es casi igual que la primera, solo que los brazos y piernas van en sentido opuesto, igual que en la cuarta imagen frame 19, la pierna izquierda es la que está plantada y es parecida al frame 7 y la última figura, el frame 25, es la misma que el frame 1. Todos estos frames se repetirán indefinidamente, y entre ellos, se pueden completar los frames faltantes para darle fluidez al movimiento, pero con estos frames realizados ya se puede ver la acción. El cuerpo nunca se mueve recto, pues el cuerpo sube y baja.
+        p.mb-4 En la tercera figura el #[em frame] 13 es casi igual que la primera, solo que los brazos y piernas van en sentido opuesto, igual que en la cuarta imagen #[em frame] 19, la pierna izquierda es la que está plantada y es parecida al #[em frame] 7 y la última figura, el #[em frame] 25, es la misma que el #[em frame] 1. Todos estos #[em frames] se repetirán indefinidamente, y entre ellos, se pueden completar los #[em frames] faltantes para darle fluidez al movimiento, pero con estos #[em frames] realizados ya se puede ver la acción. El cuerpo nunca se mueve recto, pues el cuerpo sube y baja.
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 28
-          span Walk, Caminar
+          span #[em Walk] / Caminar
         figure.mb-5
           img(src='@/assets/curso/tema2/img29.jpg', alt='Walk, Caminar')
       
-        h3.text-center.Color3.bordLineT.pt-5 Jump
+        h3.text-center.Color3.bordLineT.pt-5 #[em Jump]
         .row.justify-content-center
           .col-lg-10.mb-4
-            p.mb-0 El salto permite que el personaje se desplace hacia arriba, despegándose del suelo, para poder llegar a otro lado, o caer en el mismo punto de origen. esquivar un enemigo, saltar y destruir un npc.
+            p.mb-0 El salto permite que el personaje se desplace hacia arriba, despegándose del suelo, para poder llegar a otro lado, o caer en el mismo punto de origen. esquivar un enemigo, saltar y destruir un #[em npc].
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 29
-          span Jump
+          span #[em Jump] / Saltar
         figure.mb-5
           img(src='@/assets/curso/tema2/img30.jpg', alt='Jump')
         
         .video.mb-5
           iframe(width="560" height="315" src="https://www.youtube.com/embed/xWHfJLrI6GM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
-        h3.text-center.Color3.bordLineT.pt-5 Attack
+        h3.text-center.Color3.bordLineT.pt-5 #[em Attack]
         .row.justify-content-center
           .col-lg-10.mb-4
             p.mb-0 Una de las animaciones más usadas, es como el personaje ataca, lanza un golpe o usa una espada. Estos son movimientos que, por lo general, son movimientos rápidos: puede mover las piernas para crear estabilidad en el movimiento y verse natural; es importante siempre llegar al mismo punto de partida. 
@@ -883,10 +884,10 @@
               .anexo__texto
                 p Ver el siguiente video de Skeleton Attack Animations Pack para ilustrar mejor el movimiento.
         
-        h3.text-center.Color3.bordLineT.pt-5 Down
+        h3.text-center.Color3.bordLineT.pt-5 #[em Down]
         .row.justify-content-center
           .col-lg-10.mb-4
-            p.mb-0 La acción de agacharse puede referirse cuando el personaje trata de ocultarse, pasar bajo algo, necesitar recoger algún elemento del suelo. esquivar un golpe, una bala, un npc aéreo. entre muchas más.
+            p.mb-0 La acción de agacharse puede referirse cuando el personaje trata de ocultarse, pasar bajo algo, necesitar recoger algún elemento del suelo, esquivar un golpe, una bala, un #[em npc] aéreo, entre muchas más.
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 31
@@ -897,32 +898,19 @@
         .video.mb-5
           iframe(width="560" height="315" src="https://www.youtube.com/embed/vMvHI9_7pZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
-        h3.text-center.Color3.bordLineT.pt-5 Dead
+        h3.text-center.Color3.bordLineT.pt-5 #[em Dead]
         .row.justify-content-center
           .col-lg-10.mb-4
             p.mb-0 La muerte del personaje puede pasar porque pisó algún elemento que lo mataba de una o por que le fueron quitando la sangre poco a poco. Aquí se puede mostrar cómo el personaje cae al piso, después de que pierde su vida. Es importante tener como eje principal los pies del personaje, para que al momento de pasar la animación al motor de juego, este caiga correctamente, y no se deslice.
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 32
-          span Dead
+          span #[em Dead]
         figure.mb-5
           img(src='@/assets/curso/tema2/img33.jpg', alt='Dead')
         
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/OHYSoettZ6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </template>
 
