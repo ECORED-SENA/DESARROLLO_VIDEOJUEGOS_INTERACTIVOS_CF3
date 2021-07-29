@@ -71,7 +71,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: '<i>Autorigg</i> con Mixamo ',
+            titulo: '<i>Autorig</i> con Mixamo ',
             hash: 't1_8',
           },
           {
@@ -370,12 +370,12 @@ export default {
       },
       {
         nombre: 'Luz Aida Quintero Velásquez',
-        cargo: 'Experto temático 3D',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Oscar Absalón Guevara',
-        cargo: 'Experto temático 3D',
+        cargo: 'Evaluador instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {

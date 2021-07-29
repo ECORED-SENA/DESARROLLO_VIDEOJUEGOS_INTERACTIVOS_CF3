@@ -99,12 +99,12 @@
       p.mb-4 Para finalizar, se puede realizar la práctica con archivos prediseñados de animación y movimiento de personajes utilizando los programas Blender y Mixamo:
       
       .row.justify-content-center
-        .col-8
+        .col-md-6
           a.anexo(:href="obtenerLink('/downloads/CF003_Actividad_1.zip')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-zip.svg")
             .anexo__texto
-              p Anexo. CF003_Actividad_1.zip
+              p Anexo. Programas Blender y Mixano - Actividad
 
 </template>
 

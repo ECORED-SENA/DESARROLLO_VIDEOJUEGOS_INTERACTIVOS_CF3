@@ -71,19 +71,17 @@
             p.mb-0 El taumatropo inventado por John Ayrton Paris (1824), consiste en un disco con dos imágenes diferentes en ambos lados y un trozo de cuerda a cada lado del disco. Al hacer girar rápidamente el disco, las caras se intercambian y produce una ilusión óptica donde se combinan las imágenes.          
         
         .row(titulo="1832")
-          .col-8.col-lg-4.mb-4.mb-md-0
-            figure
-              img(src="@/assets/curso/tema2/img07.jpg", alt="historia imagén 6")
-            
-            figure
-              img(src="@/assets/curso/tema2/img08.jpg", alt="historia imagén 7")
-        
-          .col-lg-8
+          .col-md-6.mb-4.mb-md-0
+            figure.mb-4
+              img.w-50.mx-auto(src="@/assets/curso/tema2/img07.jpg", alt="historia imagén 6")            
             h3.mb-2 Fenaquistoscopio
-            p.mb-4 El fenaquistoscopio inventado por Joseph Plateau y Simon von Stampfer (1832), está compuesto por dos discos conectados por un eje. El disco frontal tiene cortes o rendijas a lo largo del borde y el disco posterior tiene una secuencia de dibujos. Al hacer girar los discos y mirar a través de las rendijas, se tiene ilusión de movimiento.
-
+            p.mb-0 El fenaquistoscopio inventado por Joseph Plateau y Simon von Stampfer (1832), está compuesto por dos discos conectados por un eje. El disco frontal tiene cortes o rendijas a lo largo del borde y el disco posterior tiene una secuencia de dibujos. Al hacer girar los discos y mirar a través de las rendijas, se tiene ilusión de movimiento.
+          
+          .col-md-6.mb-4.mb-md-0
+            figure.mb-4
+              img.w-50.mx-auto(src="@/assets/curso/tema2/img08.jpg", alt="historia imagén 7")
             h3.mb-2 Zootropo
-            p.mb-0 El zootropo: este instrumento victoriano fue vendido como un juguete y consistía en un tambor circular con rendijas. Largas tiras de papel con dibujos en secuencia eran insertadas dentro del tambor. Al rotar el tambor y ver a través de las perforaciones surgía la sensación de movimiento.            
+            p.mb-0 Este instrumento victoriano fue vendido como un juguete y consistía en un tambor circular con rendijas. Largas tiras de papel con dibujos en secuencia eran insertadas dentro del tambor. Al rotar el tambor y ver a través de las perforaciones surgía la sensación de movimiento.
         
         .row(titulo="1868")
           .col-8.col-lg-4.mb-4.mb-md-0
@@ -101,20 +99,21 @@
         
           .col-lg-8
             h3 Estudio de locomoción humana y animal por Muybridge
-            p.mb-0 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo?. Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (#[em stop motion]). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (The Atlantic, 2016).
+            p.mb-0 En este año cabe destacar que Leland Stanford, gobernador de California, Estados Unidos, contrató al fotógrafo e investigador inglés Eadward Muybridge para resolver la pregunta ¿un caballo al galopar es capaz de mantener en algún momento sus 4 extremidades sin tocar el suelo? Tras varios intentos fallidos, Muybridge logra darle la respuesta a Standford, disponiendo múltiples cámaras para capturar el movimiento en fotografías (#[em stop motion]). Muybridge fue pionero en el estudio de la locomoción animal y creó el zoopraxinoscopio para proyectar una serie de imágenes que previamente había transferido a una cinta flexible perforada (The Atlantic, 2016).
         
-        .row(titulo="1879")
-          .col-8.col-lg-4.mb-4.mb-md-0
+        .row.justify-content-center(titulo="1879")
+          .col-5.col-lg-4.mb-4.mb-md-0
+            h3 Praxinoscopio 
             figure
               img(src="@/assets/curso/tema2/img11.jpg", alt="historia imagén 10")
-            
+          
+          .col-7.col-lg-5.mb-4.mb-md-0
+            h3 Teatro óptico
             figure
               img(src="@/assets/curso/tema2/img26.jpg", alt="historia imagén 26")
         
-          .col-lg-8
-            h3 Praxinoscopio 
-            p.mb-4 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “Crystaloid”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “Teatro óptico” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (Animacam, 2017).
-            h3 Teatro óptico
+          .col-12.mt-4
+            p.mb-4 El francés Emile Reynaud fue el primero en crear una corta secuencia de acción dramática sobre una tira transparente de 30 pies de larga, llamada “Crystaloid”. Inventó el praxinoscopio, aparato basado en el zootropo, con mecanismos mejorados que luego desarrollaría aún más hasta convertirlo en lo que se conoció como “Teatro óptico” (1888). El trabajo de Reynaud abriría el camino para avances considerables por venir (Animacam, 2017).            
         
         .row(titulo="1896")
           .col-8.col-lg-4.mb-4.mb-md-0

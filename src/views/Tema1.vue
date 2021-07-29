@@ -477,7 +477,7 @@
     separador
     
     #t1_8.titulo-segundo
-      h2 1.8 #[em Autorigg] con Mixamo
+      h2 1.8 #[em Autorig] con Mixamo
 
     p.mb-5 Para #[em autoriggear] a un personaje se tiene la opción de hacerlo mediante Mixamo de Adobe. A continuación podrá ver el paso a paso para utilizar Mixamo.
 
@@ -538,7 +538,7 @@
                 img(src='@/assets/curso/tema1/img22.jpg', alt='Descargar documento')
 
         .BG03.p-4.mb-4
-          p.text-center.mb-0 En el siguiente video tutorial se puede ver el #[em Autorigg] con Mixamo.
+          p.text-center.mb-0 En el siguiente video tutorial se puede ver el #[em Autorig] con Mixamo.
         
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/6xNC2AXB-_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
