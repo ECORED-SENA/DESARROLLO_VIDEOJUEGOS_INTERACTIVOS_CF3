@@ -53,7 +53,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: '<i>Rig</i> facial y <i>blendshapes</i>',
+            titulo: '<em>Rig</em> facial y <i>blendshapes</i>',
             hash: 't1_5',
           },
           {
@@ -110,7 +110,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: '2.4.	Animaciones básicas',
+            titulo: 'Animaciones básicas',
             hash: 't2_4',
           },
         ],

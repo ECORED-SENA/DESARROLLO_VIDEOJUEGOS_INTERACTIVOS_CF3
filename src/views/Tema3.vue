@@ -16,7 +16,7 @@
     separador
       
     #t3_1.titulo-segundo
-      h2 3.1. Características del sonido
+      h2 3.1 Características del sonido
     
     p.mb-4 Las principales características del sonido son: 
 
@@ -71,7 +71,7 @@
     separador
       
     #t3_2.titulo-segundo
-      h2 3.2. El sonido en los videojuegos
+      h2 3.2 El sonido en los videojuegos
     
     p.mb-4 Uno de los elementos más importantes que se debe tener en cuenta al crear la atmósfera para un videojuego es el sonido, pues es el que apoya y le da fuerza a cada escena, ayudando que el jugador se sienta inmerso dentro del mismo, brindando una experiencia interactiva más realista a través de una buena calidad acústica, capaz de transmitir diferentes sensaciones y emociones ya sean de tristeza, alegría, temor, frustración, tranquilidad, entre otras, que enriquecen la experiencia del juego. 
 
@@ -186,7 +186,7 @@
     separador
       
     #t3_3.titulo-segundo
-      h2 3.3. Formatos de sonido 
+      h2 3.3 Formatos de sonido 
     
     p.mb-5 Los formatos de sonido son decodificadores que transmiten la señal junto al video, los más usados por la industria de los videojuegos son:
 
