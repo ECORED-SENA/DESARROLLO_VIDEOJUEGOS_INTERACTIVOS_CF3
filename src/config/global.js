@@ -430,8 +430,7 @@ export default {
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y ServiciosRegional Tolima',
       },
       {
         nombre: 'Luis Gabriel Urueta Alvarez',
