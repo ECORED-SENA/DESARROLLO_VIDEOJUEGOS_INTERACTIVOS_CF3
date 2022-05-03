@@ -100,7 +100,7 @@
       
       .row.justify-content-center
         .col-md-6
-          a.anexo(:href="obtenerLink('/downloads/CF003_Actividad_1.zip')" target="_blank")
+          a.anexo(:href="obtenerLink('downloads/CF003_Actividad_1.zip')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-zip.svg")
             .anexo__texto

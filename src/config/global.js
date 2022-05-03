@@ -167,11 +167,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -291,7 +286,7 @@ export default {
       texto:
         'Games, T. f. (2017). Skeleton Attack Animations Pack. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/D70hSa5zA78',
+      link: 'https://www.youtube.com/watch?v=A2xeKArpnd8',
     },
     {
       texto: 'Artnatomy. (2019). Home.',
@@ -326,7 +321,7 @@ export default {
       texto:
         'SENA. (2021). Actividades - Práctica con archivos prediseñados. SENA.',
       tipo: 'Documento',
-      descarga: '/downloads/CF003_Actividad_1.zip',
+      descarga: 'downloads/CF003_Actividad_1.zip',
     },
   ],
   creditos: {

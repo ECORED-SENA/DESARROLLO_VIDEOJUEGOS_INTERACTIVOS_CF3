@@ -877,7 +877,7 @@
         
         .row.justify-content-center.mb-5
           .col-8
-            a.anexo(href="https://youtu.be/D70hSa5zA78" target="_blank")
+            a.anexo(href="https://www.youtube.com/watch?v=A2xeKArpnd8" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

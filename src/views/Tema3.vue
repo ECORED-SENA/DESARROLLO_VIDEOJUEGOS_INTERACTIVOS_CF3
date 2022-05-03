@@ -145,7 +145,7 @@
                 span Escena del videojuego “#[em The Shadow of Colossus]”
               figure
                 img(src='@/assets/curso/tema3/img11.jpg', alt='Texto que describa la imagen')
-                figcaption Nota. Tomada de https://www.oio-7.top/ProductDetail.aspx?iid=130338508&pr=59.99
+                figcaption Nota. Tomada de <a href="https://www.hobbyconsolas.com/guias-trucos/shadow-colossus-ps4/localizacion-todas-monedas-shadow-colossus-ps4-188724" target="_blank">https://www.hobbyconsolas.com/guias-trucos/shadow-colossus-ps4/localizacion-todas-monedas-shadow-colossus-ps4-188724</a>
 
       .row.justify-content-center
         .col-md-11

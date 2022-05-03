@@ -313,14 +313,14 @@
         p Revisar los siguientes anexos que corresponden al #[em rig] del personaje Eleven y el Addon (Orient custom shape.zip) respectivamente, los cuales son usados durante la lección.
 
       .col-8.mb-4
-        a.anexo(:href="obtenerLink('/downloads/CF003_1.4_Orient_custom_shape.zip')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/CF003_1.4_Orient_custom_shape.zip')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-zip.svg")
           .anexo__texto
             p Anexo. CF003_1.4_Orient_custom_shape.zip
     
       .col-8
-        a.anexo(:href="obtenerLink('/downloads/CF003_1.4_Eleven.blend')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/CF003_1.4_Eleven.blend')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -424,7 +424,7 @@
 
         .row.justify-content-center.mb-4
           .col-10
-            a.anexo(:href="obtenerLink('/downloads/CF003_1.6_script_ui.py')" target="_blank")
+            a.anexo(:href="obtenerLink('downloads/CF003_1.6_script_ui.py')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
